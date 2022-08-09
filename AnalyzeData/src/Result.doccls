@@ -1,0 +1,17 @@
+﻿Option Explicit
+
+Public Property Let ProcName(myProcName As String)
+    Cells(2, 1).Value = myProcName
+End Property
+
+Public Property Let ProcResult(myProcResult As Long)
+    Cells(2, 2).Value = myProcResult
+End Property
+
+Public Property Let ProcDatetime(myProcDatetime As Date)
+    Cells(2, 3).Value = myProcDatetime
+End Property
+
+Public Property Let ErrDesc(myErrDesc As String)
+    Cells(2, 4).Value = myErrDesc
+End Property
